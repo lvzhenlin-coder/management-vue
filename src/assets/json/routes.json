@@ -1,0 +1,91 @@
+{
+    "status": 1,
+    "data": [
+        {
+			"title": "首页",
+			"itemKey": "/",
+			"subKey": "homePages",
+			"name": "home",
+			"path": "/",
+			"route": "/homePages/home",
+			"children": [
+				
+			]
+		},
+		{
+			"title": "权限管理",
+			"itemKey": "/permission",
+			"subKey": "permission",
+			"name": "permission",
+			"path": "/permission",
+			"route": "/permission",
+			"children": [
+				{
+					"title": "路由管理",
+					"itemKey": "/permission/routeSetting",
+					"subKey": "routeSetting",
+					"name": "routeSetting",
+					"path": "/permission/routeSetting",
+					"route": "/permission/routeSetting",
+					"key": "routeSetting",
+					"children": [
+						
+					]
+				}
+			]
+		},
+		{
+			"title": "校友管理",
+			"itemKey": "alumni",
+			"subKey": "alumni",
+			"name": "alumni",
+			"path": "/alumni",
+			"route": "/alumni",
+			"children": [
+				{
+					"title": "校友列表",
+					"itemKey": "/alumni/alumniList",
+					"subKey": "alumniList",
+					"name": "alumniList",
+					"path": "/alumni/alumniList",
+					"route": "/alumni/alumniList",
+					"children": [
+
+					]
+				}
+			]
+		},
+		{
+			"title": "内容管理",
+			"itemKey": "content",
+			"subKey": "content",
+			"name": "content",
+			"path": "/content",
+			"route": "/content",
+			"children": [
+				{
+					"title": "文章管理",
+					"itemKey": "/content/articleList",
+					"subKey": "articleList",
+					"name": "articleList",
+					"path": "/content/articleList",
+					"route": "/content/articleList",
+					"children": [
+
+					]
+				},
+				{
+					"title": "文章编辑",
+					"itemKey": "/content/articleEdit",
+					"subKey": "articleEdit",
+					"name": "articleEdit",
+					"path": "/content/articleEdit",
+					"route": "/content/articleEdit",
+					"children": [
+
+					]
+				}
+			]
+		}
+    ]
+}
